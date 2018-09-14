@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+    <!-- The above 3 meta tags must come first in the head; any other head content must come after these tags -->
+    <title>Chave de Roda</title>
+</head>
+    <body>
+       <header>
+
+            <div class="container">
+
+                <h1 class="titulo">Chave de Roda</h1>
+                <h1 class="subtitulo"><a href="Index.html" >Serviços</a></h1>
+                <h1 class="subtitulo"><a href="CadastroCarro.html" >Carros</a></h1>
+
+            </div>
+
+        </header>
+
+        <main>
+
+            <section class="container">
+
+                <h2>Serviços</h2>
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+                            <th class="posicaoColuna">Numero O.S.</th>
+                            <th class="posicaoColuna">Nome</th>
+                            <th class="posicaoColuna">CPF</th>
+                            <th class="posicaoColuna">Cidade</th>
+                            <th class="posicaoColuna">Bairro</th>
+                            <th class="posicaoColuna">Serviço</th>
+                            <th class="posicaoColuna">Data</th>
+                            <th class="posicaoColuna">Valor</th>
+                             
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="tabela-pacientes">
+
+                        <tr class="paciente" id="info-paulo">
+                            <td class="info-nos">001</td>
+                            <td class="info-nome">Paulo</td>
+                            <td class="info-cpf">738.243.452-42</td>
+                            <td class="info-cidade">Friburgo</td>
+                            <td class="info-gordura">Alto de Olaria</td>
+                            <td class="info-servico">Serviço</td>
+                            <td class="info-data">18/05/18</td>
+                            <td class="info-valor">R$ 20,00</td>
+                            
+                        </tr>
+
+                        <tr class="paciente" id="info-joao">
+                            <td class="info-nos">002</td>
+                            <td class="info-nome">João</td>
+                            <td class="info-cpf">406.433.218-02</td>
+                            <td class="info-cidade">Rio de Janeiro</td>
+                            <td class="info-bairro">Barra</td>
+                            <td class="info-servico">Serviço</td>
+                            <td class="info-data">10/04/18</td>
+                            <td class="info-valor">R$ 175,00</td>
+                            
+                        </tr>
+
+                        <tr class="paciente" id="info-erica">
+                            <td class="info-nos">003</td>
+                            <td class="info-nome">Erica</td>
+                            <td class="info-cpf">265.344.786-09</td>
+                            <td class="info-cidade">Rio das Ostras</td>
+                            <td class="info-gordura">Bairro Atlântica</td>
+                            <td class="info-servico">Serviço</td>
+                            <td class="info-data">02/01/18</td>
+                            <td class="info-valor">R$ 80,00</td>
+                            
+                        </tr>
+
+                        <tr class="paciente" id="info-douglas">
+                            <td class="info-nos">004</td>
+                            <td class="info-nome">Douglas</td>
+                            <td class="info-cpf">986.517.743-97</td>
+                            <td class="info-cidade">São Paulo</td>
+                            <td class="info-gordura">Bairros do Pari</td>
+                            <td class="info-servico">Serviço</td>
+                            <td class="info-data">03/06/18</td>
+                            <td class="info-valor">R$ 250,00</td>
+                            
+                        </tr>
+                        <tr class="paciente" id="info-tatiana">
+                            <td class="info-nos">005</td>
+                            <td class="info-nome">Tatiana</td>
+                            <td class="info-cpf">347.963.811-20</td>
+                            <td class="info-cidade">Petrópolis</td>
+                            <td class="info-gordura">Itaipava</td>
+                            <td class="info-servico">Serviço</td>
+                            <td class="info-data">07/07/18</td>
+                            <td class="info-valor">R$ 300,00</td>
+                            
+                        </tr>
+                        
+                    </tbody>
+
+                </table>
+
+            </section>
+            
+        </main>
+        
+         <section class="container">
+
+                    <h2 id="titulo-form">Adicionar uma nova O.S.</h2>
+
+                    <form id="form-adiciona">
+                        
+
+                        <div class="numeroOS">
+                            <label for="numeroOS">Número da O.S.:</label>
+                            <input id="numeroOS" name="numeroOS" type="text" placeholder="Informe o número da O.S." class="campo">
+                        </div>
+                          
+                    
+                        <div class="nome">
+                            <label for="nome">Nome:</label>
+                            <input id="nome" name="nome" type="text" placeholder="digite o nome do seu Cliente" class="campo">
+                        </div>
+
+                        <div class="cpf">
+                            <label for="cpf">CPF:</label>
+                            <input id="cpf" name="cpf" type="text" placeholder="digite o CPF" class="campo campo-medio">
+                        </div>
+                        <div class="cidade">
+                            <label for="cidade">Cidade:</label>
+                            <input id="cidade" name="cidade" type="text" placeholder="Informe a Cidade" class="campo campo-medio">
+                        </div>
+                        <div class="bairro">
+                            <label for="bairro">Bairro:</label>
+                            <input id="bairro" type="bairro" placeholder="Informe o Endereço" class="campo campo-medio">
+                        </div>
+                        <div class="servico">
+                            <label for="servico">Serviço:</label>
+                            <input id="servico" type="servico" placeholder="Informe o Serviço" class="campo campo-medio">
+                        </div>
+                        <div class="data">
+                            <label for="data">Data: </label>
+                            <input id="data" type="data" placeholder="Informe a Data" class="campo campo-medio">
+
+                        </div>
+
+                        <div class="valor">
+                            <label for="valor">Valor do Serviço: </label>
+                            <input id="valor" type="valor" placeholder="Informe o valor" class="campo campo-medio">
+
+                        </div>
+                    </li>
+                    </ul>
+
+                        <button id="adicionar-paciente" class="botao bto-principal">Adicionar</button>
+                    
+                    </form>
+             </section>
+
+             <script language="javascript" src="js/form.js"></script>
+
+
+
+
+             <footer class="rodape">
+                   &copy; Chave de Roda
+ 
+             </footer>
+            
+             
+    </body>
+
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+</head>
